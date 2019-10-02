@@ -24,3 +24,13 @@ var ownedCatAndDog = function(catYears, dogYears) {
     
     return ownedYears;
   }
+
+
+  //The highest profit wins!
+
+  function minMax(arr){
+    newArr =[]
+    newArr.push(Math.min(...arr))
+    newArr.push(Math.max(...arr))
+    return newArr
+  }
