@@ -34,3 +34,14 @@ var ownedCatAndDog = function(catYears, dogYears) {
     newArr.push(Math.max(...arr))
     return newArr
   }
+
+  //expressions matter
+
+  function expressionMatter(a, b, c) {
+    let test1 = a * (b + c)
+    let test2 = (a + b) * c
+    let test3 = a + b + c
+    let test4 = a * b * c
+    let numbers = [test1, test2, test3, test4]
+    return Math.max(...numbers)
+  }
